@@ -1,0 +1,33 @@
+
+.NavBar{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;}
+button{
+    width: 150%;
+}
+.cta{
+    margin: 30px;
+}
+
+.pageHeader{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.mainImage{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dogImg{
+    width:50%;
+    margin-top:10%;
+    border-radius: 5%;
+}
