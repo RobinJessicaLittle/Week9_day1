@@ -11,7 +11,9 @@ app.use("/static", express.static("public"));
 app.listen(5001, () =>{
     console.log("Listening on port 5001");
 });
+
+//npm install express - in terminal to get the listen method to work
+
 //node src/server.js
-//npm i express- in terminal to get the listen method to work
 // http://localhost:5001/static- in a new window in google too get the static too run, at the local host 5001
 
